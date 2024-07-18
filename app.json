@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "NhaTotSaiGon",
+    "slug": "NhaTotSaiGon",
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      [
+      "react-native-fbsdk-next",
+      {
+        "appID": "3816806131924203",
+        "clientToken": "6cf900d136bdc4e8b818f02dde158101",
+        "displayName": "NhaTotSaiGon",
+        "scheme": "fb3816806131924203"
+      }
+      ]
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.project.NhaTotSaiGon"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c19c0d9-81dd-4942-9ab8-fe7f62ad2320"
+      }
+    }
+  }
+}

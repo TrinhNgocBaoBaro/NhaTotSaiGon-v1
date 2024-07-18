@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283644597986",
+    "project_id": "nhatotsaigon-33372",
+    "storage_bucket": "nhatotsaigon-33372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283644597986:android:d015ff4d773e290dbe30bb",
+        "android_client_info": {
+          "package_name": "com.project.NhaTotSaiGon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283644597986-leidptb3pskn2cb9qlga6e2ndb9rb32p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.NhaTotSaiGon",
+            "certificate_hash": "3f9b0974ebdcd33ad2afb38c295c1f90b0b07154"
+          }
+        },
+        {
+          "client_id": "283644597986-p5rffgmol80kn65qlp6rjaq9r31sn8ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.NhaTotSaiGon",
+            "certificate_hash": "64076e5e31ac8c5a9f4a9624b67021cc7afbf838"
+          }
+        },
+        {
+          "client_id": "283644597986-6bpm3qm5ot1rrmhie7do9kn326raeiu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSEJaCNzdSY7j79N9ovGoPHU1X_1XHMSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283644597986-6bpm3qm5ot1rrmhie7do9kn326raeiu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
