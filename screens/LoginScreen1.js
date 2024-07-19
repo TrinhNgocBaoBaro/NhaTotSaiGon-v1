@@ -77,7 +77,7 @@ const LoginScreen = ({ navigation }) => {
 
   async function onFacebookButtonPress() {
     // Attempt login with permissions
-    const result = await LoginManager.logInWithPermissions(['public_profile', 'email']);
+    const result = await LoginManager.logInWithPermissions(['public_profile']);
   
     if (result.isCancelled) {
       throw 'User cancelled the login process';
@@ -97,19 +97,20 @@ const LoginScreen = ({ navigation }) => {
     // return auth().signInWithCredential(facebookCredential);
 
     const user_sign_in = auth().signInWithCredential(facebookCredential);
-    user_sign_in
-      .then((user) => {
-        console.log(user);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    console.log(user_sign_in)
+    // user_sign_in
+    //   .then((user) => {
+    //     console.log(user);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
   }
 
-  React.useEffect(() => {
-    const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
-    return subscriber; // unsubscribe on unmount
-  }, []);
+  // React.useEffect(() => {
+  //   const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
+  //   return subscriber; // unsubscribe on unmount
+  // }, []);
 
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
